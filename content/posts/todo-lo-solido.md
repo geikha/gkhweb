@@ -1,6 +1,8 @@
 ---
 title: Anotaciones sobre Todo Lo Sólido [...]
 date: 2026-01-09
+images:
+  - /posts/todo-lo-solido/TODO_LO_SOLIDO_REDO_16_9.jpg
 ---
 
 ![Todo Lo Sólido se Desvanece en el Aire](/posts/todo-lo-solido/TODO_LO_SOLIDO_REDO_16_9.jpg)
