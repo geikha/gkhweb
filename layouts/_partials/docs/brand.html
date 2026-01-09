@@ -1,0 +1,10 @@
+<h2 class="book-brand">
+  <a class="flex align-center" href="{{ cond (not $.Site.Home.File) $.Sites.Default.Home.RelPermalink $.Site.Home.RelPermalink }}">
+    {{- with $.Site.Params.BookLogo -}}
+    <img src="{{ . | relURL }}" alt="{{ $.Site.Title }}" class="book-logo-img" />
+    {{- end -}}
+  </a>
+</h2>
+<div class="book-brand-text">
+  <p>芸下</p>
+</div>

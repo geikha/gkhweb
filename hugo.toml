@@ -1,0 +1,67 @@
+baseURL = 'https://geikha.xyz/'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+title = 'GEIKHA芸下'
+theme = 'hugo-book'
+
+[languages]
+  [languages.en]
+    languageCode = 'en-us'
+    languageName = 'English'
+    weight = 1
+    title = 'GEIKHA芸下'
+    [languages.en.params]
+      BookMenuBundle = 'menu'
+  
+  [languages.es]
+    languageCode = 'es'
+    languageName = 'Español'
+    weight = 2
+    title = 'GEIKHA芸下'
+    [languages.es.params]
+      BookMenuBundle = 'menu'
+
+# Mount content for both languages to share the same files
+[module]
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+    lang = 'en'
+  
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+    lang = 'es'
+  
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
+  
+  [[module.mounts]]
+    source = 'layouts'
+    target = 'layouts'
+  
+  [[module.mounts]]
+    source = 'data'
+    target = 'data'
+  
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  
+  [[module.mounts]]
+    source = 'i18n'
+    target = 'i18n'
+  
+  [[module.mounts]]
+    source = 'archetypes'
+    target = 'archetypes'
+
+[params]
+BookTheme = 'dark'
+BookLogo = '/images/geikha.svg'
+BookFavicon = 'gkh-favicon.png'
+BookSection = '*'
+
+[markup.goldmark.renderer]
+  unsafe = true
