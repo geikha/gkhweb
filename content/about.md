@@ -19,7 +19,7 @@ Beyond stage work, Geikha actively participates in the tools and infrastructures
 
 In Buenos Aires, Geikha studies [Electronic Arts at **UNTREF**](https://arteselectronicas.untref.edu.ar/es/home), where they organize live coding workshops, as well as at other institutions like **UBA–FCEN**, contributing to the growth of the local scene.
 
-Across all these contexts, Geikha defines their practice as **working-class art**: experimental without detaching from the popular, political and without shame. Their work prioritizes mass appeal, the re-appropriation of accessible technologies, and an explicit stance against gatekeeping, understanding live coding as a *collective cultural process* rather than an individual display of virtuosity.
+Across all these contexts, Geikha defines their practice as **working-class art**: experimental without detaching from the popular, politicald without shame. Their work prioritizes mass appeal, the re-appropriation of accessible technologies, and an explicit stance against gatekeeping, understanding live coding as a *collective cultural process* rather than an individual display of virtuosity.
 {{% /en %}}
 
 
@@ -28,11 +28,11 @@ Across all these contexts, Geikha defines their practice as **working-class art*
 
 ![gkh](/images/BAT_0108.jpg)
 
-**GEIKHA** es un live coder y artista audiovisual radicado en Buenos Aires. Su trabajo lleva la programación y la síntesis visual en tiempo real a clubes, recitales y espacios de música en vivo, manteniendo el código cerca del cuerpo, la pista de baile y la experiencia colectiva.
+**GEIKHA** es un live coder y artista audiovisual radicado en Buenos Aires. Su trabajo lleva la programación y la síntesis visual en tiempo real a clubes, recitales y espacios de música en vivo, manteniendo el código cerca del cuerpo, el bailes y la experiencia colectiva.
 
-En contextos de club y rave, Geikha livecodea música rápida y sampleada, con raíces en el **Chicago Footwork**, el **Juke**, el **RKT** y otras tradiciones electrónicas de origen popular. Comparte escenario con varios DJs, llevando los ritmos algorítmicos hacia las pistas de baile. En paralelo, desarrolla una práctica visual basada en *síntesis de video en vivo*, trabajando con múltiples formatos: televisores de tubo, pantallas LED, pantallas planas, proyecciones y mapeos de gran escala.
+En contextos de club y rave, Geikha livecodea música rápida y sampleada, con raíces en el **Chicago Footwork**, el **Juke**, el **RKT** y otras tradiciones electrónicas de origen popular. Comparte escenario con varios DJs, llevando los ritmos algorítmicos a las pistas de baile. En paralelo, desarrolla una práctica visual basada en la *síntesis de video*, trabajando con múltiples formatos: televisores de tubo, pantallas LED, pantallas planas, proyecciones y mapeos de gran escala.
 
-Una parte central de esta práctica visual ocurre junto a la banda **[Camionero](https://www.instagram.com/camionerorocanrol/)**, de cuyo equipo visual forma parte de manera sostenida desde hace varios años. A partir del diseño de la portada de *[Todo lo sólido se desvanece en el aire](https://www.laizquierdadiario.com/Todo-lo-solido-se-desvanece-en-el-aire-el-nuevo-manifiesto-musical-de-Camionero)*, Geikha participó en la construcción del universo visual del proyecto en giras y ciclos como *Tracción a Sangre*, explorando puestas que combinan distintos dispositivos y escalas.
+Una parte central de esta práctica visual ocurre junto a la banda **[Camionero](https://www.instagram.com/camionerorocanrol/)**, de cuyo equipo forma parte de manera sostenida desde hace unos años. A partir del diseño de la portada de *[Todo lo sólido se desvanece en el aire](https://www.laizquierdadiario.com/Todo-lo-solido-se-desvanece-en-el-aire-el-nuevo-manifiesto-musical-de-Camionero)*, Geikha participó en la construcción del universo visual del proyecto en giras y el ciclo *Tracción a Sangre*, explorando puestas que combinan distintos dispositivos y escalas.
 
 Además de su trabajo escénico, Geikha participa activamente en las herramientas e infraestructuras que sostienen la práctica del live coding. Contribuyó de forma intensiva al desarrollo y la documentación de **[Hydra Video Synth](https://hydra.ojack.xyz/)**, trabaja con el ecosistema **[TidalCycles](https://tidalcycles.org/)–Strudel** y forma parte del proceso de revisión por pares de la **International Conference on Live Coding (ICLC)**. En 2022 fue seleccionado para una beca de **[COSA](https://clinicopensourcearts.org/)** (Clinic for Open Source Arts, University of Denver).
 
