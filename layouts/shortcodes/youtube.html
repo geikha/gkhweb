@@ -1,0 +1,8 @@
+<div class="youtube-wrapper">
+  <iframe
+    src="https://www.youtube.com/embed/{{ .Get 0 }}{{ if .Get 1 }}?start={{ .Get 1 }}{{ end }}"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
