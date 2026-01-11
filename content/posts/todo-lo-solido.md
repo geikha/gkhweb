@@ -239,7 +239,7 @@ Como describí anteriormente, los chicos eligieron una toma rápidamente. Mientr
 
 #### "Sediento por tu luz [...]"
 
-Quienes hayan intentado fotografiar un televisor de tubo saben que no es fácil; los tubos muestran la imagen **línea por línea** a una velocidad que puede ser totalmente distinta a **la exposición de la cámara**. Esto genera las típicas franjas negras que se ven en videos de televisores antiguos. Para evitar esto la obturación de la cámara tiene que ser igual o mayor a cuánto tarda el rayo catódico del tubo en mostrar un fotograma. Este balanceo se cruza con el caos del sistema, aún más impredecible gracias a la interferencia que da la señal de la cámara contra la señal de la computadora. Pues, al no ser señales sincronizadas, pasan por momentos destructivos (se cancelan entre sí y "confunden" a la tele) y constructivos (se encuentran y se suman en sync). Esa noche, estos factores me sumergieron en una caza fotográfica. Estaba cazando un instante visual maximizando mis reflejos.   
+Quienes hayan intentado fotografiar un televisor de tubo saben que no es fácil; los tubos muestran la imagen **línea por línea** a una velocidad que puede ser totalmente distinta a **la obturación de la cámara**. Esto genera las típicas franjas negras que se ven en videos de televisores antiguos. Para evitar esto la obturación de la cámara tiene que ser igual o mayor a cuánto tarda el rayo catódico del tubo en mostrar un fotograma. Este balanceo se cruza con el caos del sistema, aún más impredecible gracias a la interferencia que da la señal de la cámara contra la señal de la computadora. Pues, al no ser señales sincronizadas, pasan por momentos destructivos (se cancelan entre sí y "confunden" a la tele) y constructivos (se encuentran y se suman en sync). Esa noche, estos factores me sumergieron en una caza fotográfica. Estaba cazando un instante visual maximizando mis reflejos.   
 
 {{% columns ratio="1:3" %}}
 - ![Detalle 1](/posts/todo-lo-solido/detalle-1.jpg)
@@ -262,14 +262,14 @@ Detalles de la toma original de la portada, sin procesar.
   100
 {{% /columns %}}
 
-Otro problema que surge con los televisores de tubo es el efecto moiré, el cual puede mitigarse procesando las fotografías con un desenfoque horizontal, aunque esto conlleve una pérdida de nitidez. También puede mitigarse desenfocando el lente. Es algo que no fue tenido en cuenta en el recorte de la portada original.
+Otro problema que surge con los televisores de tubo es el efecto *moiré*, el cual puede mitigarse procesando las fotografías con un desenfoque horizontal, aunque esto conlleve una pérdida de nitidez. También puede mitigarse desenfocando el lente. Es algo que no fue tenido en cuenta en el recorte de la portada original.
 
 {{< padded >}}
 ![Aliasing](/posts/todo-lo-solido/aliasing.jpg)
 {{< /padded >}} 
 
 {{< imagefoot >}}
-Efecto moiré exagerado a través de aliasing. <br>
+Efecto *moiré* exagerado a través de aliasing. <br>
 {{< /imagefoot >}}
 
 ---
@@ -303,7 +303,7 @@ Hoy, con el diario del lunes, encuentro quizás más coincidencias entre teoría
 Variación del sistema "Tódo lo Sólido [...]": Joan Manuel Pardo <br> Geikha. (2026).
 {{< /imagefoot >}}
 
-**Jony** tomó el título del libro homónimo de **Marshall Berman**. En ese libro, Berman analiza el modernismo como un efecto de este aire: la modernización que impulsa el capital en constante expansión mercantil genera un caos acelerado. El modernismo surge entonces como el esfuerzo subjetivo de individuos y artistas para darle sentido a la modernidad. Para así apropiarnos de la era moderna y volvernos sujetos de la historia. `[Berman, M. (1982). Todo lo Sólido se Desvanece en el Aire].` No hay que dejarse arrastrar por el aire, hay que ser un viento en contra. Seamos un viento viento tan fuerte que *"disipa las nubes del escepticismo y del pesimismo, que hoy ensombrecen el horizonte de la humanidad."* `[Trotsky, L. (1938). El arte y la revolución].`   
+**Jony** tomó el título del libro homónimo de **Marshall Berman**. En ese libro, Berman analiza el modernismo como un efecto de este aire: la modernización que impulsa el capital en constante expansión mercantil genera un caos acelerado. El modernismo surge entonces como el esfuerzo subjetivo de individuos y artistas para darle sentido a la modernidad. Para así apropiarnos de la era moderna y volvernos sujetos de la historia. `[Berman, M. (1982). Todo lo Sólido se Desvanece en el Aire].` No hay que dejarse arrastrar por el aire, hay que ser un viento en contra. Seamos un viento tan fuerte que *"disipa las nubes del escepticismo y del pesimismo, que hoy ensombrecen el horizonte de la humanidad."* `[Trotsky, L. (1938). El arte y la revolución].`   
 
 *"Entre todes empujamos el camión"* es una metáfora recurrente en el Club Camionero, **propongo una versión holística**: el camión se disolvió en el aire. Su fluidez le permitió ser un humilde contra-viento ante los caudales del capital.    
 
@@ -323,7 +323,7 @@ La absurdez de esta situación, a primera impresión, se vuelve una confusión c
 
 ## Otra perspectiva
 
-**Casi un año después de que salga el disco**, ya había arrancado el ciclo Tracción a Sangre a pleno en el **Morrison**. El [acoplado](https://www.instagram.com/el.acoplado/) tenía a [Toto](https://www.instagram.com/elmi_serable/) (*El Miserable* en grabados), [*Rulo Calaveras*](https://www.instagram.com/rulo.calaveras/), [Luci](https://www.instagram.com/costurasdelanada/) (*Costuras de la Nada*), [Juma](https://www.instagram.com/tu_locura_viva/) (*Tu Locura Viva*, metales) y [Barbarella](https://www.instagram.com/tshit.remes/) (*T-SHIT*) en las remeras. Los chicos me plantearon otra transducción, esta vez de pixel a estampa: **el diseño de una remera**. Para esto quise evitar cualquier granulación causada por la [rejilla de apertura del televisor](https://es.wikipedia.org/wiki/Rejilla_de_apertura), por lo que fotografiar no era una opción. Así que decidí rearmar el sistema, en **NTSC** y con otra *handycam*. Decidí capturar directamente lo que entra de la videocámara a la computadora, que no llega a percibir la textura del televisor. Utilicé la misma **Sony DCR-HC38** que me ven usar en casi todos los shows.
+**Casi un año después de que salga el disco**, ya había arrancado el ciclo Tracción a Sangre a pleno en el **Morrison**. El [acoplado](https://www.instagram.com/el.acoplado/) tenía a [Toto](https://www.instagram.com/elmi_serable/) (*El Miserable* en grabados), [*Rulo Calaveras*](https://www.instagram.com/rulo.calaveras/), [Luci](https://www.instagram.com/costurasdelanada/) (*Costuras de la Nada*), [Juma](https://www.instagram.com/tu_locura_viva/) (*Tu Locura Viva*, metales) y [Barbarella](https://www.instagram.com/tshit.remes/) (*T-SHIT*) en las remeras. Los chicos me plantearon otra transducción, esta vez de pixel a estampa: **el diseño de una remera**. Para esto quise evitar cualquier granulación causada por la [rejilla de apertura del televisor](https://es.wikipedia.org/wiki/Rejilla_de_apertura), por lo que fotografiar no era una opción. Así que decidí rearmar el sistema en **NTSC** y con otra *handycam*. Decidí capturar directamente lo que entra de la videocámara a la computadora, que no llega a percibir la textura del televisor. Utilicé la misma **Sony DCR-HC38** que me ven usar en casi todos los shows.
 
 {{< vimeo 1152707959 >}}
 
@@ -353,7 +353,7 @@ Jony usando la remera en el camión, fotografía de Diego Homez.
 
 ### Otros medios
 
-Los videos de esta sesión y el diseño de la remera han aparecido de muchas varias formas, por si la cadena de transducciones no era lo suficientemente compleja. Se han visto buzos, stickers... y hay quienes decidieron incrustar las letras de ese fotograma en su piel:
+Los videos de esta sesión y el diseño de la remera han aparecido de varias formas, por si la cadena de transducciones no era lo suficientemente compleja. Se han visto buzos, stickers... y hay quienes decidieron incrustar las letras de ese fotograma en su piel:
 
 <div style="display:flex;justify-content:center;width=100%;">
 <div style="width:66%">
@@ -384,7 +384,7 @@ Fotografía de Diego Homez.
 
 ### La huella
 
-Otro uso central de la rueda es en las visuales de **La Distancia**, que fueron grabadas casi al mismo tiempo que la remera. Admito que no hubo ninguna gran idea conceptual detrás de ellas: simplemente quise usar el suave movimiento de la rueda y ponerla en un espacio que se aleja. El efecto de [*reaction-diffussion*](https://jasonwebb.github.io/reaction-diffusion-playground/) que se genera, esas lineas contrastadas que parecen moverse como micro-organismos, servía para perderse siguiendo su **distanciamiento**. Ésto se mantiene hasta que explota la canción y todo ese universo se viene encima (se acerca aceleradamente). Quizás, simulando ese momento donde lo que parece lejano se vuelve una emoción inabarcable.
+Otro uso central de la rueda es en las visuales de **La Distancia**, que fueron grabadas casi al mismo tiempo que la remera. Admito que no hubo ninguna gran idea conceptual detrás de ellas: simplemente quise usar el suave movimiento de la rueda y ponerla en un espacio que se aleja. El efecto de [*reaction-diffussion*](https://jasonwebb.github.io/reaction-diffusion-playground/) que se genera (esas lineas contrastadas que parecen moverse como micro-organismos) servía para perderse siguiendo su **distanciamiento**. Ésto se mantiene hasta que explota la canción y todo ese universo se viene encima, se acerca aceleradamente. Quizás, simulando ese momento donde lo que parece lejano se vuelve una emoción inabarcable.
 
 {{< vimeo 1152707921 >}}
 
@@ -398,7 +398,7 @@ Para reflexionar sobre estos dos años de girar las ruedas, decidí revisitar ot
 
 ### *Sharpen Feedback*
 
-Un efecto visual que es común ver en los shows y en general en el mundo de las visuales analógicas, es uno al que llamaré ***Sharpen Feedback***. Pues se basa en retroalimentar un efecto de realzado de bordes. Muchos *glitches* analógicos como éste generan lineas repetidas al rededor de los contornos horizontales. En las siguientes imágenes puede verse claramente al rededor de la rueda, las partes oscuras se llenan de estas líneas repetitivas.
+Un efecto visual que es común ver en los shows y en general en el mundo de las visuales analógicas, es uno al que llamaré ***Sharpen Feedback***. Pues se basa en retroalimentar un efecto de realzado de bordes. Muchos *glitches* analógicos como éste generan lineas repetidas alrededor de los contornos horizontales. En las siguientes imágenes puede verse claramente alrededor de la rueda: las partes oscuras se llenan de estas líneas repetitivas.
 
 {{% columns ratio="1:2" %}}
 - ![Re-Art 1](/posts/todo-lo-solido/TODO-REART-1.jpg)
@@ -417,7 +417,7 @@ Esta sección se pone re técnica.
 
 #### *Sharpen*
 
-El realzado de bordes es una técnica en procesamiento de imágenes para hacer los contornos de las figuras más definidos. Se busca detectar cambios bruscos en el brillo de la imagen. Es decir, hay que analizar cada punto de la imagen, ver que tiene al rededor y calcular la diferencia. Esa diferencia se suma a la imagen original para aumentar la presencia de los contornos.
+El realzado de bordes es una técnica en procesamiento de imágenes para hacer los contornos de las figuras más definidos. Se busca detectar cambios bruscos en el brillo de la imagen. Es decir, hay que analizar cada punto de la imagen, ver que tiene alrededor y calcular la diferencia. Esa diferencia se suma a la imagen original para aumentar la presencia de los contornos.
 
 |Original|Bordes|Sharpen|
 |-|-|-|
@@ -434,7 +434,7 @@ Ahora, ¿cómo hace un circuito eléctrico para realizar este efecto? Primero ha
 Ignoraremos totalmente ambos el entrelazado y el color del video para simplificar.
 {{% /hint %}}
 
-Esto significa que el video analógico tiene una sola dimensión (sin contar el tiempo): el voltaje, el cual le dice cuánto brillo mostrar a lo largo de ese recorrido. Siempre que el rayo está disparando, se está moviendo hacia la derecha (desde nuestro punto de vista). Por lo que si queremos *ver que tiene al rededor* un punto de la imagen, solo podremos hacerlo horizontalmente (y hacia atrás, pues **no podemos ver el futuro**).
+Esto significa que el video analógico tiene una sola dimensión (sin contar el tiempo): el voltaje, el cual le dice cuánto brillo mostrar a lo largo de ese recorrido. Siempre que el rayo está disparando, se está moviendo hacia la derecha (desde nuestro punto de vista). Por lo que si queremos *ver que tiene alrededor* un punto de la imagen, solo podremos hacerlo horizontalmente (y hacia atrás, pues **no podemos ver el futuro**).
 
 |Original|Bordes Horizontales|Sharpen Horizontal|
 |-|-|-|
@@ -450,11 +450,11 @@ Bordes(S) = k . HPF(S)      // Bordes según la cantidad de sharpen (k) que quer
 Sharpen(S) = S + Bordes(S)  // Resultado final
 ```
 
-Cuando una señal pasa por uno de estos circuitos, necesariamente se mueve levemente a hacia la derecha. Es casi imperceptible, pero como tomamos un pequeño tiempo para procesar la señal, llegamos más tarde al recorrido del rayo catódico.
+Cuando una señal pasa por uno de estos circuitos, necesariamente se mueve levemente hacia la derecha. Es casi imperceptible, pero como tomamos un pequeño tiempo para procesar la señal, llegamos más tarde al recorrido del rayo catódico.
 
 #### *Feedback*
 
-La **retroalimentación** ha sido clave a lo largo de todo este texto. Pero lo que hemos visto hasta ahora es retroalimentación **visual**, donde cada instancia del bucle se comunica entre planos de colores (fotogramas). **¿Qué pasa cuando el video como señal eléctrica se retroalimenta?** Cuando conectamos el *sharpen* a sí mismo, inmediatamente comienza a realzar bordes levemente corridos a la derecha, infinitamente. Quienes trabajen con audio *(otra señal unidimensional)* pueden entenderlo más fácilmente: si el micrófono escucha al parlante, y una frecuencia está muy alta, se escucha un acople de esos tonos a lo largo del tiempo. Aquí sucede lo mismo: realzamos una frecuencia alta infinitas veces, y empezamos a **ver** una oscilación que se extiende en el tiempo (y extenderse en el tiempo es moverse hacia la derecha). Aquí dejo un **acercamiento digital** a este efecto para que prueben con el mouse. Como los pixeles en una computadora no viajan a la velocidad de la electricidad, quizás tarde un poco en estabilizarse.
+La **retroalimentación** ha sido clave a lo largo de todo este texto. Pero lo que hemos visto hasta ahora es retroalimentación **visual**, donde cada instancia del bucle se comunica entre planos de colores (fotogramas). **¿Qué pasa cuando el video como señal eléctrica se retroalimenta?** Cuando conectamos el *sharpen* a sí mismo, inmediatamente comienza a realzar bordes levemente corridos a la derecha, infinitamente, y empiezan a aparecer *los bordes de los bordes de los bordes [...].* Quienes trabajen con audio *(otra señal unidimensional)* pueden entenderlo más fácilmente: si el micrófono escucha al parlante, y una frecuencia está muy alta, se escucha un acople de esos tonos a lo largo del tiempo. Aquí sucede lo mismo: realzamos una frecuencia alta infinitas veces, y empezamos a **ver** una oscilación que se extiende en el tiempo (y extenderse en el tiempo es moverse hacia la derecha). Aquí dejo un **acercamiento digital** a este efecto para que prueben con el mouse. Como los pixeles en una computadora no viajan a la velocidad de la electricidad, quizás tarde un poco en estabilizarse.
 
 ```hydra
 await loadScript("https://cdn.jsdelivr.net/gh/geikha/hyper-hydra@latest/hydra-arithmetics.js")
@@ -515,7 +515,7 @@ Geikha. (2026).
 
 ### Amor analógico
 
-Mientras tanto, lejos del mundo virtual, tengo que agradecer también a quienes forman parte de mi familia camionera. Especialmente a quienes me ayudaron a crear este mundo de colores: [Matt Oliveira](https://www.instagram.com/m_a_tt__oliveira_/) en luces y [Sol Bodean](https://www.instagram.com/sol.bodean/) como co-visualista. Matt y yo a lo largo de estos años hemos desarrollado, poco a poco, cada momento del show. Nada está automatizado y hay muy pocos descansos, es **pura tracción a sangre**. Elegimos los colores de cada canción y los fuimos cambiando en múltiples viajes en su auto, sabemos tanto los temas que parecen sincronizados a máquina los *black-out*. La puesta en escena se adapta a las luces y viceversa. En cuanto a Sol, su rol preciso ha variado varias veces: para el primer Matienzo (presentación del **Todo [...]**), armamos y pensamos y probamos [la puesta de teles CRT](https://www.instagram.com/p/DEQi-ubSeLw/?img_index=1) en su casa, y en vivo controló una cámara lejana cuya señal enviamos desbalanceada por la patchera. Cuando aparecieron las primeras teles LED para la puesta, ella controló las teles de tubo replicando la estética exacta mientras yo integraba las nuevas pantallas planas. Y desde ya, en los Vorterix, hizo las proyecciones en los laterales ambientando con texturas y acompañando al dúo dinámico con enormes imágenes.
+Mientras tanto, lejos del mundo virtual, tengo que agradecer también a quienes forman parte de mi familia camionera. Especialmente a quienes me ayudaron a crear este mundo de colores: [Matt Oliveira](https://www.instagram.com/m_a_tt__oliveira_/) en luces y [Sol Bodean](https://www.instagram.com/sol.bodean/) como co-visualista. Matt y yo a lo largo de estos años hemos desarrollado, poco a poco, cada momento del show. Nada está automatizado y hay muy pocos descansos, es **pura tracción a sangre**. Elegimos los colores de cada canción y los fuimos cambiando en múltiples viajes en su auto, sabemos tanto los temas que parecen sincronizados a máquina los *black-out*. La puesta en escena se adapta a las luces y viceversa. En cuanto a Sol, su rol preciso ha en cada oportunidad: para el primer Matienzo (presentación del **Todo [...]**), armamos y pensamos y probamos [la puesta de teles CRT](https://www.instagram.com/p/DEQi-ubSeLw/?img_index=1) en su casa, y en vivo controló una cámara lejana cuya señal enviamos desbalanceada por la patchera. Cuando aparecieron las primeras teles LED para la puesta, ella controló las teles de tubo replicando la estética exacta mientras yo integraba las nuevas pantallas planas. Y desde ya, en los Vorterix, hizo las proyecciones en los laterales ambientando con texturas y acompañando al dúo dinámico con enormes imágenes.
 
 Quizás en otro momento me tome el tiempo de revisitar cada show, cada puesta y su evolución artística. Cada mensaje escrito en la pantalla y cada respuesta que viene del público. Este fenómeno, como tantos, se puede observar desde varios ángulos.
 
