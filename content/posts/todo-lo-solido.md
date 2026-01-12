@@ -27,7 +27,7 @@ No volvimos a cruzar palabra hasta que volvieron a tocar en Antiguas Lunas el 8 
 
 ### "Partículas por celular"   
 
-Semanas después, Santi se contactó conmigo diciéndome que **ya estaban ultimando detalles del disco** y tenían que hacer la portada, y que habían pensado en mí. Le respondí que me encantaría pero tenía con poco tiempo, y que podría aunque sea mandarle una idea inicial lo antes posible. Esa noche pasé **un buen par de horas buscando imágenes y modelos de ruedas**, juzgando sus colores, que se perciba como rueda de camión, que se note que es rueda y no cualquier *torus* (toro, forma de dona). Eventualmente me crucé con `Neumático de carretilla sin procesar escaneado modelo 3d`, y tomé una de las imágenes de demostración del modelo, sin textura:   
+Semanas después, Santi se contactó conmigo diciéndome que **ya estaban ultimando detalles del disco** y tenían que hacer la portada, y que habían pensado en mí. Le respondí que me encantaría pero tenía poco tiempo, y que podría aunque sea mandarle una idea inicial lo antes posible. Esa noche pasé **un buen par de horas buscando imágenes y modelos de ruedas**, juzgando sus colores, que se perciba como rueda de camión, que se note que es rueda y no cualquier *torus* (toro, forma de dona). Eventualmente me crucé con `Neumático de carretilla sin procesar escaneado modelo 3d`, y tomé una de las imágenes de demostración del modelo, sin textura:   
 
 {{< padded >}}
 ![Neumático de carretilla sin procesar escaneado modelo 3d](/posts/todo-lo-solido/whitetire01.png)
@@ -160,7 +160,7 @@ rueda()
 Una rueda cuyo tono depende de la cámara.
 {{< /imagefoot >}}
 
-Ya que la cámara mira a la rueda en el televisor, este proceso continúa en bucle generando constantes cambios en el tono. Finalmente, por encima de la cámara y la rueda-nebulosa, muestro el texto titular. El cuarto elemento lo omití previamente para no confundir, pero la posición de la cámara al fondo de la composición, está siendo modulada por la salida: una pizca más de caos.   
+Ya que la cámara mira a la rueda en el televisor, este proceso continúa en bucle generando constantes cambios en el tono. Finalmente, por encima de la cámara y la rueda-nebulosa, muestro el texto titular. El cuarto elemento lo omití previamente para no confundir: la posición de la cámara, al fondo de la composición, está siendo levemente modulada por la salida (la visual resultante): una pizca más de caos.   
 
 {{% details "COMPOSICIÓN - PROCESO DIGITAL" closed %}}
 ```
