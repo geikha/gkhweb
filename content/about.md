@@ -19,7 +19,7 @@ Beyond stage work, Geikha actively participates in the tools and infrastructures
 
 In Buenos Aires, Geikha studies [Electronic Arts at **UNTREF**](https://arteselectronicas.untref.edu.ar/es/home), where they organize live coding workshops, as well as at other institutions like **UBA–FCEN**, contributing to the growth of the local scene.
 
-Across all these contexts, Geikha defines their practice as **working-class art**: experimental without detaching from the popular, politicald without shame. Their work prioritizes mass appeal, the re-appropriation of accessible technologies, and an explicit stance against gatekeeping, understanding live coding as a *collective cultural process* rather than an individual display of virtuosity.
+Across all these contexts, Geikha defines their practice as **working-class art**: experimental without detaching from the popular, blatantly political. Their work prioritizes mass appeal, the re-appropriation of accessible technologies, and an explicit stance against gatekeeping, understanding live coding as a *collective cultural process* rather than an individual display of virtuosity.
 {{% /en %}}
 
 
