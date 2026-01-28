@@ -1,0 +1,35 @@
+{{- /* Music platform links shortcode */ -}}
+<div class="music-links-container">
+  <div class="music-links">
+    {{- with .Get "bandcamp" -}}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" title="Listen on Bandcamp">
+      <img src="/images/icons/bandcamp.png" alt="Bandcamp">
+    </a>
+    {{- end -}}
+    {{- with .Get "soundcloud" -}}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" title="Listen on SoundCloud">
+      <img src="/images/icons/soundcloud.png" alt="SoundCloud">
+    </a>
+    {{- end -}}
+    {{- with .Get "spotify" -}}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" title="Listen on Spotify">
+      <img src="/images/icons/spotify.png" alt="Spotify">
+    </a>
+    {{- end -}}
+    {{- with .Get "tidal" -}}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" title="Listen on Tidal">
+      <img src="/images/icons/tidal.png" alt="Tidal" class="tidal-link">
+    </a>
+    {{- end -}}
+    {{- with .Get "youtube" -}}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" title="Watch on YouTube">
+      <img src="/images/icons/youtube.png" alt="YouTube" class="youtube-link">
+    </a>
+    {{- end -}}
+    {{- with .Get "applemusic" -}}
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer" title="Listen on Apple Music">
+      <img src="/images/icons/applemusic.png" alt="Apple Music">
+    </a>
+    {{- end -}}
+  </div>
+</div>

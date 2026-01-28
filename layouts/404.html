@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ default .Site.Language.Lang .Site.LanguageCode }}" dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
+<head>
+  {{ partial "docs/html-head" . }}
+  {{ partial "docs/inject/head" . }}
+  <link rel="stylesheet" href="/css/404.css">
+</head>
+<body dir="{{ default "ltr" .Site.Language.LanguageDirection }}" class="book-kind-404">
+  <div class="error-404-container">
+    <div class="hero-text fake-code error-404-code" data-autotype="30" data-line-delay="3" data-cursor="block">
+      <span class="prompt">></span> Error: <span style="color: #e21212; font-weight: bold;">404</span><br>
+      <span class="prompt">></span> Page not found<br>
+      <span class="prompt">></span> The requested page does not exist<br>
+      <span class="prompt">></span> <a href="/">return to home</a><br>
+      <span class="prompt">></span> .............. <a href="/">GEIKHA 芸下</a>
+    </div>
+  </div>
+
+  {{ partial "docs/inject/body" . }}
+  
+  <script src="/js/autotype.js"></script>
+</body>
+</html>

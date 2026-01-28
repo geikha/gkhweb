@@ -19,6 +19,7 @@
       {{ template "main" . }} <!-- Page Content -->
       {{ partial "docs/inject/content-after" . }}
 
+      {{ if not .Params.bookHideFooter }}
       <footer class="book-footer">
         {{ template "footer" . }} <!-- Footer under page content -->
         {{ template "comments" . }} <!-- Comments block -->
@@ -26,6 +27,7 @@
         {{ template "copyright" . }} <!-- Copyright block -->
         {{ template "clipboard" . }}
       </footer>
+      {{ end }}
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
@@ -34,6 +36,8 @@
   </main>
 
   {{ partial "docs/inject/body" . }}
+  
+  <script src="/js/autotype.js"></script>
 </body>
 </html>
 
