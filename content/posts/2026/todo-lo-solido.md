@@ -231,7 +231,7 @@ Si hubiese sido puramente mi desición, seguramente la portada habría sido algu
 
 Como describí anteriormente, los chicos eligieron una toma rápidamente. Mientras escribia esto, decidí sentarme un poco con la fotografía original a editarla como lo habría hecho con tiempo. Una especie de ***remaster*** de la portada.
 
-![Original](TODO_LO_SOLIDO_REDO_MB_2.jpg)
+![Original](/posts/todo-lo-solido/TODO_LO_SOLIDO_REDO_MB_2.jpg)
 
 {{< imagefoot >}}
 *Remaster* de la portada de "Tódo lo Sólido se Desvanece en el Aire". <br> Geikha. (2023, 2026).
