@@ -1,7 +1,7 @@
 ---
 title: GEIKHA
 weight: 1
-description: "GEIKHA [芸下] is a livecoder, AV artist and music producer from Buenos Aires working with algorithmic methods to video-synthesis and latin-influenced Chicago Footwork production.
+description: "GEIKHA [芸下] is a livecoder, AV artist and music producer from Buenos Aires working with algorithmic methods to video-synthesis and latin-influenced Chicago Footwork production."
 ---
 
 {{< multilang >}}
