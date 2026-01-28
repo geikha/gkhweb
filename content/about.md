@@ -28,7 +28,7 @@ Across all these contexts, Geikha defines their practice as **working-class art*
 
 ![gkh](/images/BAT_0108.jpg)
 
-**GEIKHA** es un live coder y artista audiovisual radicado en Buenos Aires. Su trabajo lleva la programación y la síntesis visual en tiempo real a clubes, recitales y espacios de música en vivo, manteniendo el código cerca del cuerpo, el bailes y la experiencia colectiva.
+**GEIKHA** es un live coder y artista audiovisual radicado en Buenos Aires. Su trabajo lleva la programación y la síntesis visual en tiempo real a clubes, recitales y espacios de música en vivo, manteniendo el código cerca del cuerpo, el baile y la experiencia colectiva.
 
 En contextos de club y rave, Geikha livecodea música rápida y sampleada, con raíces en el **Chicago Footwork**, el **Juke**, el **RKT** y otras tradiciones electrónicas de origen popular. Comparte escenario con varios DJs, llevando los ritmos algorítmicos a las pistas de baile. En paralelo, desarrolla una práctica visual basada en la *síntesis de video*, trabajando con múltiples formatos: televisores de tubo, pantallas LED, pantallas planas, proyecciones y mapeos de gran escala.
 
