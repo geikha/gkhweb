@@ -54,7 +54,7 @@ Jony menciona en [su entrevista con La Izquierda Diario](https://www.laizquierda
 
 ### Lo analógico   
 
-La portada fue hecha a partir de un sistema visual digital y analógico. Una videocámara `Panasonic G303 (PAL-B)`, apunta a un televisor `Sony Trinitron KV-21XTR3`. Esta cámara **funciona mal**, tiene aberraciones notables cuando el lente recibe mucha luz. La señal analógica de la cámara es capturada en una computadora donde corre la parte digital del sistema, hecha con **[Hydra](https://hydra.ojack.xyz/)**. Dentro de la computadora se componen **cámara, rueda y texto** (detalles abajo) y salen convertidas otra vez al analógico, donde la imagen pasa por un **procesador** simple (*sharpen, hue*). La cámara a su vez envía señal a un **amplificador** el cual meto como interferencia al procesador donde entra la imagen de la computadora. La señal del procesador va hacia el televisor con un transcodificador PAL-B PAL-N para que la señal sea compatible. **Desde aquí se repite el complejo y extraño bucle cámara-televisor.**    
+La portada fue hecha a partir de un sistema visual digital y analógico. Una videocámara `Panasonic G303 (PAL-B)`, apunta a un televisor `Sony Trinitron KV-21XTR3`. Esta cámara **funciona mal**, tiene aberraciones notables cuando el lente recibe mucha luz. La señal analógica de la cámara es capturada en una computadora donde corre la parte digital del sistema, hecha con **[Hydra](https://hydra.ojack.xyz/)**. Dentro de la computadora se componen **cámara, rueda y texto** (detalles abajo) y salen convertidas otra vez al analógico, donde la imagen pasa por un **procesador** simple (*sharpen, hue*). La cámara a su vez envía señal a un **amplificador** el cual meto como interferencia al mismo procesador donde entra la imagen `[cámara, rueda, texto]`. La señal del procesador va hacia el televisor con un transcodificador PAL-B PAL-N para que la señal sea compatible. **Desde aquí se repite el complejo y extraño bucle cámara-televisor.**    
 **Como dos espejos mirándose entre sí** en un ascensor, pero en un espacio ficticio dónde podemos hacer cambios mágicos a la luz que pasa ida y vuelta. Esto es a lo que les visualistas llamamos ***video-feedback*** (retroalimentación de video) y es la fina utilización de esta técnica la que busco en mis visuales.   
 
 <div style="mix-blend-mode:screen">
@@ -88,6 +88,11 @@ Fotografía: Diego Homez
 {{% hint warning %}}
 **Advertencia**  
 Esta sección se pone re técnica.
+{{% /hint %}}
+
+{{% hint info %}}
+**Info**  
+Uno de los efectos interactivos te va a pedir usar **TU cámara**.
 {{% /hint %}}
 
 Lo que sucede en Hydra, la parte digital del sistema y la que más contribuye, consiste de 4 elementos clave: primero que nada, se muestra la señal de la cámara ajustando su saturación y contraste. Luego, se sobrepone la "rueda-nebulosa" (por llamarla de alguna manera). Ésta se basa en la imagen de rueda 3D que había elegido. Esa imagen pasa por algunos procesos antes de llegar a un ***luma key*, un efecto que elimina las partes oscuras de la señal.**
@@ -417,7 +422,7 @@ Esta sección se pone re técnica.
 
 #### *Sharpen*
 
-El realzado de bordes es una técnica en procesamiento de imágenes para hacer los contornos de las figuras más definidos. Se busca detectar cambios bruscos en el brillo de la imagen. Es decir, hay que analizar cada punto de la imagen, ver que tiene alrededor y calcular la diferencia. Esa diferencia se suma a la imagen original para aumentar la presencia de los contornos.
+El realzado de bordes es una técnica en procesamiento de imágenes para hacer los contornos de las figuras más definidos. Se busca detectar cambios bruscos en el brillo de la imagen. Es decir, hay que analizar cada punto de la imagen, ver qué tiene alrededor y calcular la diferencia. Esa diferencia se suma a la imagen original para aumentar la presencia de los contornos.
 
 |Original|Bordes|Sharpen|
 |-|-|-|
