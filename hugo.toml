@@ -62,6 +62,7 @@ BookTheme = 'dark'
 BookLogo = '/images/geikha.svg'
 BookFavicon = 'gkh-favicon.png'
 BookSection = '*'
+image = '/images/gkh-collage-REDUCED.jpg'
 
 [markup.goldmark.renderer]
   unsafe = true
