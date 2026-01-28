@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Muzik
+weight: 11
 bookCollapseSection: true
-weight: 13
 ---

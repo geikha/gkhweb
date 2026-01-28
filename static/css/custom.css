@@ -1,8 +1,13 @@
-/* Custom Geikha Styling */
+/* CUSTOM GEIKHA STYLING */
+
+/* 1. IMPORTS */
 
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* 2. CSS VARIABLES */
 
 :root {
   /* Background colors */
@@ -27,14 +32,17 @@
   --code-font: Consolas, monospace;
 }
 
-/* Override background */
+
+/* 3. BASE STYLES */
+
+/* Body */
 body {
   background-color: var(--color-background);
   color: var(--color-text-primary);
   font-family: var(--body-font);
 }
 
-/* Override headings */
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-heading);
   font-family: var(--heading-font);
@@ -42,17 +50,36 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration-color: red;
 }
 
-/* Code and highlights */
+/* Code elements */
 code, pre, kbd, samp {
   font-family: var(--code-font);
 }
 
-/* Book-specific overrides */
+/* Video */
+video {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+/* 4. HUGO BOOK THEME OVERRIDES */
+
+/* Menu */
 .book-menu {
   background-color: var(--color-background-secondary);
   font-family: var(--code-font);
 }
 
+.book-menu a {
+  color: var(--color-text-primary);
+}
+
+.book-menu a:hover {
+  color: var(--color-link);
+}
+
+/* Brand */
 .book-brand {
   padding: 0;
   margin: 0;
@@ -66,46 +93,10 @@ code, pre, kbd, samp {
   width: 100%;
 }
 
-/* Override the theme's fixed logo size */
 .book-brand img {
   height: auto;
   width: 100%;
   max-width: none;
-}
-
-.book-page {
-  background-color: var(--color-background);
-}
-
-.book-toc {
-  background-color: var(--color-background-secondary);
-  font-family: var(--code-font);
-}
-
-/* Sidebar items */
-.book-menu a {
-  color: var(--color-text-primary);
-}
-
-.book-menu a:hover {
-  color: var(--color-link);
-}
-
-.book-toc a {
-  color: var(--color-text-primary);
-}
-
-.book-toc a:hover {
-  color: var(--color-link);
-}
-
-.book-search input {
-    width: 100%;
-    padding: .5rem;
-    border: 1px solid var(--gray-200);
-    border-radius: 0;
-    background: #000;
-    color: var(--body-font-color);
 }
 
 .book-brand-text {
@@ -120,26 +111,63 @@ code, pre, kbd, samp {
   margin: 0;
 }
 
+/* Page */
+.book-page {
+  background-color: var(--color-background);
+}
+
+/* Table of Contents */
+.book-toc {
+  background-color: var(--color-background-secondary);
+  font-family: var(--code-font);
+}
+
+.book-toc a {
+  color: var(--color-text-primary);
+}
+
+.book-toc a:hover {
+  color: var(--color-link);
+}
+
+/* Search */
+.book-search input {
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 0;
+    background: #000;
+    color: var(--body-font-color);
+}
+
+/* Post Date */
 .book-post-date {
   text-align: right;
 }
 
+/* Footer */
 .book-footer {
   font-family: var(--code-font);
 }
 
+/* Markdown Content */
 .markdown pre {
   background-color: #0f0f0f;
 }
 
-/* Justify body text */
 .markdown,
 .markdown p {
   text-align: justify;
   text-justify: inter-word;
 }
 
-/* CODEMIRROR */
+.markdown iframe {
+  display: block;
+  margin: 1rem auto;
+}
+
+
+/* 5. CODEMIRROR STYLES */
 
 .CodeMirror {
   height: 100% !important;
@@ -163,13 +191,10 @@ code, pre, kbd, samp {
   border-color: #555;
 }
 
-video {
-  width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
 
-/* Utility Classes for Centering */
+/* 6. LAYOUT UTILITIES */
+
+/* Centering */
 .center {
   /* display: flex; */
   justify-content: center;
@@ -192,6 +217,7 @@ video {
   margin-right: auto;
 }
 
+/* Padding */
 .padded {
   padding: 8vw;
   padding-top: 1rem;
@@ -199,6 +225,10 @@ video {
   text-align: center;
 }
 
+
+/* 7. CONTENT COMPONENTS */
+
+/* Image Footer */
 .imagefoot {
   text-align: center;
   margin: auto;
@@ -212,6 +242,7 @@ video {
   max-width: none;
 }
 
+/* Vimeo Wrapper */
 .vimeo-wrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -226,4 +257,153 @@ video {
   width: 100%;
   height: 100%;
   background-color: #000;
+}
+
+/* SoundCloud */
+.soundcloud-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 1rem;
+}
+
+/* Square Embeds */
+.square-embed {
+  width: 500px !important;
+  height: 500px !important;
+  max-width: 90% !important;
+  margin: 2rem auto !important;
+  display: block !important;
+}
+
+@media screen and (max-width: 768px) {
+  .square-embed {
+    width: 85vw !important;
+    height: 85vw !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Music Platform Links */
+.music-links-container {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.music-links {
+  display: inline-flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.music-links a {
+  display: inline-block;
+  transition: opacity 0.2s;
+}
+
+.music-links a:hover {
+  opacity: 0.7;
+}
+
+.music-links img {
+  height: 45px;
+  width: auto;
+  display: block;
+}
+
+.music-links img.tidal-link {
+  height: 35px;
+}
+
+.music-links img.youtube-link {
+  height: 35px;
+}
+
+/* Hero Text */
+.hero-text pre {
+  font-size: 1.5rem;
+}
+
+.hero-text.fake-code {
+  font-size: 1.5rem;
+}
+
+/* Fake Code Block */
+.fake-code {
+  background: #000000;
+  color: #dddddd;
+  padding: 1rem;
+  border-radius: 4px;
+  font-family: var(--code-font);
+  line-height: 2;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.fake-code .comment {
+  color: #798585;
+  display: block;
+  margin-top: 0.8rem;
+}
+
+.fake-code .comment:first-child {
+  margin-top: 0;
+}
+
+.fake-code .prompt {
+  color: #e21212;
+}
+
+.fake-code a {
+  color: #bbff33;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.fake-code a:hover {
+  border-bottom-color: #bbff33;
+}
+
+
+/* 8. INTERACTIVE FEATURES */
+
+/* Autotype Cursor */
+.autotype-cursor {
+  animation: blink 1s step-end infinite;
+}
+
+.autotype-cursor.cursor-block {
+  /* background-color: #bbff33; */
+  color: #bbff33;
+  padding: 0 2px;
+}
+
+.autotype-cursor.cursor-underscore {
+  color: #bbff33;
+}
+
+/* Animations */
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  50.1%, 100% {
+    opacity: 0;
+  }
+}
+
+
+/* 10. RESPONSIVE MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  /* Hero Text */
+  .hero-text pre {
+    font-size: 4vw;
+  }
+  
+  .hero-text.fake-code {
+    font-size: 3.5vw;
+  }
 }
