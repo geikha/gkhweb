@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ default .Site.Language.Lang .Site.LanguageCode }}" dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
 <head>
+  <meta name="google" content="notranslate">
+  <meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}">
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
 </head>
