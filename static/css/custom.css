@@ -62,6 +62,10 @@ video {
   padding-right: 10%;
 }
 
+hr {
+  margin-block-start: 2em;
+}
+
 
 /* 4. HUGO BOOK THEME OVERRIDES */
 
@@ -189,6 +193,21 @@ video {
 .editor-button{
   background-color: #000;
   border-color: #555;
+}
+
+/* Hydra Preview Responsive Sizing */
+.preview-placeholder {
+  max-width: 100% !important;
+}
+
+.preview-placeholder canvas {
+  max-width: 100% !important;
+  height: auto !important;
+  width: 100% !important;
+}
+
+.preview-header {
+  max-width: 100% !important;
 }
 
 
@@ -348,6 +367,10 @@ video {
   color: #798585;
   display: block;
   margin-top: 0.8rem;
+}
+
+.fake-code .inline-comment {
+  color: #798585;
 }
 
 .fake-code .comment:first-child {
