@@ -1,0 +1,42 @@
+{{- $code := .Inner -}}
+{{- $deps := $.Page.Store.Get "hydra-deps-loaded" -}}
+{{- if not $deps -}}
+  {{- $.Page.Store.Set "hydra-deps-loaded" true -}}
+  <!-- Hydra/CodeMirror dependencies - injected on first use -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.2/codemirror.min.css" integrity="sha512-MWdvo/Qqcf4pY1ecQUB1uBn0qLp19U/qJ1Rpp2BDZeuBA7YsFEwkvqR/+aG4BroPiAYDunKJ6X8R/Pmdt3p7oA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.2/addon/hint/show-hint.min.css" crossorigin="anonymous" />
+ <link rel="stylesheet" href="{{ "css/cs-geikha.css" | relURL }}" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/torus-dom/dist/index.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.2/codemirror.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.2/mode/javascript/javascript.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.2/addon/hint/javascript-hint.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.2/addon/hint/show-hint.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.2/addon/selection/mark-selection.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.59.2/addon/comment/comment.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hydra-synth/dist/hydra-synth.js"></script>
+  <script src="{{ "js/hydra-torus-editor.js" | absURL }}"></script>
+{{- end -}}
+{{- $hydraId := printf "hydra-preview-%d-%d" .Ordinal now.UnixNano -}}
+<div id="{{ $hydraId }}"></div>
+<script>
+  (function() {
+    const initHydraPreview = function() {
+      if (typeof PreviewApp === 'undefined') {
+        setTimeout(initHydraPreview, 100);
+        return;
+      }
+      const previewApp = new PreviewApp();
+      const container = document.getElementById('{{ $hydraId }}');
+      if (container) {
+        container.appendChild(previewApp.node);
+        previewApp.setCode(`{{ $code | safeJS }}`);
+      }
+    };
+    
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initHydraPreview);
+    } else {
+      initHydraPreview();
+    }
+  })();
+</script>
