@@ -21,10 +21,11 @@ function resetHydraState() {
   render(o0);
 }
 
-function resizeHydra(size) {
-  hydraApp.canvas.width = size;
-  hydraApp.canvas.height = size;
-  hydraApp.hydra.setResolution(size, size);
+function resizeHydra(width, height) {
+  if (height === undefined) height = width;
+  hydraApp.canvas.width = width;
+  hydraApp.canvas.height = height;
+  hydraApp.hydra.setResolution(width, height);
 }
 
 function isElementStillVisible(element) {
@@ -443,11 +444,21 @@ class CodeApp extends Torus.StyledComponent {
   }
 }
 
-// PreviewApp - canvas only, no editor (512x512)
+// PreviewApp - canvas only, no editor
+// Uses 512 as the base dimension: width for vertical, height for horizontal
+
+const BASE_SIZE = 512;
 
 class PreviewApp extends Torus.StyledComponent {
   init() {
     this.code = "";
+    // Original dimensions from shortcode
+    this.originalWidth = 512;
+    this.originalHeight = 512;
+    // Computed display dimensions
+    this.displayWidth = 512;
+    this.displayHeight = 512;
+    
     this.placeholder = document.createElement("div");
     this.placeholder.className = "preview-placeholder";
 
@@ -459,17 +470,47 @@ class PreviewApp extends Torus.StyledComponent {
     observer.observe(this.placeholder);
   }
 
+  setSize(width, height) {
+    this.originalWidth = width;
+    this.originalHeight = height;
+    
+    // Calculate display dimensions based on aspect ratio
+    const aspectRatio = width / height;
+    
+    if (height > width) {
+      // Vertical: prioritize width of BASE_SIZE
+      this.displayWidth = BASE_SIZE;
+      this.displayHeight = Math.round(BASE_SIZE / aspectRatio);
+    } else if (width > height) {
+      // Horizontal: prioritize height of BASE_SIZE
+      this.displayHeight = BASE_SIZE;
+      this.displayWidth = Math.round(BASE_SIZE * aspectRatio);
+    } else {
+      // Square
+      this.displayWidth = BASE_SIZE;
+      this.displayHeight = BASE_SIZE;
+    }
+    
+    // Apply dimensions directly to the placeholder
+    this.placeholder.style.width = `${this.displayWidth}px`;
+    this.placeholder.style.height = `${this.displayHeight}px`;
+    
+    // Re-render to update styles with new dimensions
+    this.render();
+  }
+
   triggerCanvas() {
     if (activeCanvas === this) return; // Already active
     activeCanvas = this;
     
     clearGlobalTimeout();
     
-    // Calculate optimal size based on container width
-    const containerWidth = this.placeholder.parentElement?.offsetWidth || 512;
-    const size = Math.min(512, containerWidth);
+    // Get actual placeholder dimensions (may be smaller on mobile due to CSS)
+    const rect = this.placeholder.getBoundingClientRect();
+    const renderWidth = Math.round(rect.width);
+    const renderHeight = Math.round(rect.height);
     
-    resizeHydra(size);
+    resizeHydra(renderWidth, renderHeight);
     resetHydraState();
     setTimeout(() => this.evalCode(), 60);
     this.placeholder.appendChild(hydraApp.node);
@@ -488,6 +529,8 @@ class PreviewApp extends Torus.StyledComponent {
   }
 
   styles() {
+    const aspectRatio = this.originalWidth / this.originalHeight;
+    
     return css`
       box-sizing: border-box;
       position: relative;
@@ -497,32 +540,40 @@ class PreviewApp extends Torus.StyledComponent {
       flex-direction: column;
       align-items: center;
       
+      .preview-container {
+        position: relative;
+        display: inline-block;
+      }
+      
       .preview-header {
-        width: 512px;
-        display: flex;
-        justify-content: flex-end;
-        margin-bottom: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        padding: 4px;
       }
       
       .preview-placeholder {
         position: relative;
-        min-width: 512px;
-        width: 512px;
-        height: 512px;
+        box-sizing: border-box;
+        max-width: 100%;
       }
       
-      @media only screen and (max-width: 560px) {
-        .preview-header {
-          width: 100%;
-          max-width: 512px;
-        }
+      @media only screen and (max-width: ${this.displayWidth + 48}px) {
         .preview-placeholder {
-          min-width: 100%;
-          width: 100%;
-          max-width: 512px;
-          height: auto;
-          aspect-ratio: 1 / 1;
+          width: 100% !important;
+          height: auto !important;
+          aspect-ratio: ${aspectRatio};
         }
+      }
+      
+      .preview-placeholder canvas {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
       }
     `;
   }
@@ -530,12 +581,14 @@ class PreviewApp extends Torus.StyledComponent {
   compose() {
     return jdom`
       <div>
-        <div class="preview-header">
-          <button class="editor-button" title="open in hydra" onclick=${() => openInHydraEditor(this.code)}>
-            open in hydra
-          </button>
+        <div class="preview-container">
+          <div class="preview-header">
+            <button class="editor-button" title="open in hydra" onclick=${() => openInHydraEditor(this.code)}>
+              open in hydra
+            </button>
+          </div>
+          ${this.placeholder}
         </div>
-        ${this.placeholder}
       </div>
     `;
   }
