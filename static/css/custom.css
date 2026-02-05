@@ -167,7 +167,11 @@ hr {
 
 .markdown iframe {
   display: block;
-  margin: 1rem auto;
+  /* margin: 1rem auto !important; */
+}
+
+.markdown .center iframe {
+  min-width: 200px !important;
 }
 
 
@@ -215,13 +219,20 @@ hr {
 
 /* Centering */
 .center {
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   text-align: center;
   margin: 1rem auto;
 }
 
 .center img {
+  display: block;
+  margin: 1rem auto;
+}
+
+.center iframe {
   display: block;
   margin: 1rem auto;
 }
