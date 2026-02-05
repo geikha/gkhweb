@@ -111,7 +111,7 @@ Takes advantage of period-doubling bifurcation thanks to Hydra's renderpass desy
 
 ---
 
-## corrupter screensaver
+## corrupted screensaver
 
 {{< hydra-preview >}}
 // corrupted screensaver
