@@ -560,6 +560,10 @@ class PreviewApp extends Torus.StyledComponent {
       }
       
       @media only screen and (max-width: ${this.displayWidth + 48}px) {
+        .preview-container {
+          width: 100%;
+        }
+        
         .preview-placeholder {
           width: 100% !important;
           height: auto !important;
