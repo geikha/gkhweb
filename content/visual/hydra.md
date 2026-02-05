@@ -20,7 +20,8 @@ await loadScript(hyper+"hydra-outputs.js")
 await loadScript(hyper+"hydra-colorspaces.js")
 await loadScript(extrash+"lib-noise.js")
 
-oS.setLinear()
+o0.setLinear()
+o1.setLinear()
 
 sharpenOnY(o1, .45, [1,2])
 	.scale(1.024)
@@ -117,7 +118,7 @@ Takes advantage of period-doubling bifurcation thanks to Hydra's renderpass desy
 // by GEIKHA
 // instagram.com/geikha_ | geikha.xyz
 
-window.oS ? oS.setNearest() : 0 // hydra-output's check
+window.oS ? o0.setNearest() : 0 // hydra-output's check
 
 voronoi(300,0.2)
   	.modulateScale(osc(8).rotate(Math.sin(time)),.5)
@@ -299,7 +300,7 @@ setFunction({
 
 setResolution(1080,1350)
 
-oS.setLinear()
+o0.setLinear()
 hydraWrap.setMirror()
 
 rotatePlane = (x) => x.rotate3D([-.55,.2].smooth(),[-.1,.4,.8].smooth(),-.3)
@@ -365,7 +366,8 @@ await loadScript(hyper+"hydra-fractals.js")
 await loadScript(hyper+"hydra-colorspaces.js")
 await loadScript(extrash+"lib-noise.js")
 
-oS.setLinear()
+o0.setLinear()
+o1.setLinear()
 
 sharpenOnY(o0,.1,1).mirrorWrap().invert(1)
     .contrast(1.2)
@@ -473,7 +475,7 @@ hyper = "https://cdn.jsdelivr.net/gh/geikha/hyper-hydra@latest/"
 
 await loadScript(hyper+"hydra-mouse.js")
 
-window.oS ? oS.setNearest() : 0 // hydra-output's check
+window.oS ? o0.setNearest() : 0 // hydra-output's check
 
 shape(3, 0.1, 0.3)
 	.repeat(1,1).scrollY(1, 0.1)
