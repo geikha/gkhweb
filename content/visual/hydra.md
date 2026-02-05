@@ -1,9 +1,14 @@
 ---
 title: Hydra
 weight: 13
+description: A gallery running some of my best Hydra visual pieces. All code is available.
 ---
 
 # Hydra Patches
+
+{{< center >}}
+[{{< badge style="danger" title="License" value="CC BY-NC-SA 4.0" >}}](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+{{< /center >}}
 
 ## interespacios gamma
 
@@ -11,6 +16,7 @@ weight: 13
 // interespacios gamma
 // by GEIKHA
 // instagram.com/geikha_ | geikha.xyz
+// licensed with CC BY-NC-SA 4.0
 
 hyper = "https://cdn.jsdelivr.net/gh/geikha/hyper-hydra@latest/"
 extrash = "https://metagrowing.org/extra-shaders-for-hydra/"
@@ -58,6 +64,7 @@ Takes advantage of a period-doubling bifurcation thanks to Hydra's renderpass de
 // nature's inside-outs
 // by GEIKHA
 // instagram.com/geikha_ | geikha.xyz
+// licensed with CC BY-NC-SA 4.0
 
 hyper = "https://cdn.jsdelivr.net/gh/geikha/hyper-hydra@latest/"
 extrash = "https://metagrowing.org/extra-shaders-for-hydra/"
@@ -117,6 +124,7 @@ Takes advantage of period-doubling bifurcation thanks to Hydra's renderpass desy
 // corrupted screensaver
 // by GEIKHA
 // instagram.com/geikha_ | geikha.xyz
+// licensed with CC BY-NC-SA 4.0
 
 window.oS ? o0.setNearest() : 0 // hydra-output's check
 
@@ -148,6 +156,7 @@ Nearest-neighbor coordinate system.
 // by GEIKHA
 // instagram.com/geikha_ | geikha.xyz
 // originally comissioned for MDN @markdenardo
+// licensed with CC BY-NC-SA 4.0
 
 hyper = "https://cdn.jsdelivr.net/gh/geikha/hyper-hydra@latest/"
 extrash = "https://metagrowing.org/extra-shaders-for-hydra/"
@@ -250,6 +259,7 @@ Emergent symmetry from rotations and mirrors.<br>
 // by GEIKHA
 // instagram.com/geikha_ | geikha.xyz
 // originally comissioned for MDN @markdenardo
+// licensed with CC BY-NC-SA 4.0
 
 hyper = "https://cdn.jsdelivr.net/gh/geikha/hyper-hydra@latest/"
 extrash = "https://metagrowing.org/extra-shaders-for-hydra/"
@@ -354,6 +364,7 @@ Emergent symmetry from rotations.<br>
 // latent clouds
 // by GEIKHA
 // instagram.com/geikha_ | geikha.xyz
+// licensed with CC BY-NC-SA 4.0
 
 hyper = "https://cdn.jsdelivr.net/gh/geikha/hyper-hydra@latest/"
 extrash = "https://metagrowing.org/extra-shaders-for-hydra/"
@@ -401,6 +412,7 @@ Emergent symmetry from 90° rotations.
 // polar feedback
 // by GEIKHA
 // instagram.com/geikha_ | geikha.xyz
+// licensed with CC BY-NC-SA 4.0
 
 hyper = "https://cdn.jsdelivr.net/gh/geikha/hyper-hydra@latest/"
 extrash = "https://metagrowing.org/extra-shaders-for-hydra/"
@@ -470,6 +482,7 @@ Colors from YUV 709 manipulation.
 // hand-drawn galaxies
 // by GEIKHA
 // instagram.com/geikha_ | geikha.xyz
+// licensed with CC BY-NC-SA 4.0
 
 hyper = "https://cdn.jsdelivr.net/gh/geikha/hyper-hydra@latest/"
 
@@ -508,7 +521,9 @@ Nearest-neighbor coordinate system.
 
 {{< hydra-preview >}}
 // a fractal explorer using rotations
-// geikha_
+// by GEIKHA
+// instagram.com/geikha_ | geikha.xyz
+// licensed with CC BY-NC-SA 4.0
 
 hyper = "https://cdn.jsdelivr.net/gh/geikha/hyper-hydra@latest/"
 extrash = "https://metagrowing.org/extra-shaders-for-hydra/"
