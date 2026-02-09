@@ -4,6 +4,11 @@ title: "black hole [1] - prints"
 
 # black hole [1] - prints
 
+{{% hint info %}}
+**Nota**<br>
+Estas visuales fueron originalmente creadas para PC, puede que se vean algo distintas desde un dispositivo móbil.
+{{% /hint %}}
+
 ## #0
 
 {{< hydra-preview width="1080" height="1350" >}}
@@ -23,7 +28,10 @@ await loadScript(hyper+"hydra-wrap.js")
 await loadScript(hyper+"hydra-convolutions.js")
 await loadScript(extrash+"lib-noise.js")
 
-_hydra.precision = "mediump";
+if(location.href.includes("hydra.ojack.xyz")){
+	_hydra.canvas.style.height = "100%";
+  	_hydra.canvas.style.width = "auto";
+}
 
 setFunction({
     name: "rotate3D",
