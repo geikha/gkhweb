@@ -113,6 +113,7 @@ class HydraApp extends Torus.StyledComponent {
       enableStreamCapture: false,
       width: 360,
       height: 360,
+      precision: /Mobi|Android|iPhone/i.test(navigator.userAgent) ? 'highp' : 'mediump'
     });
   }
   
