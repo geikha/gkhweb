@@ -81,5 +81,5 @@ window.bh1_generate = function(N){
         .saturate(rrand(0.9,1.4))
         .out(o2)
     fps = 0
-    speed = .0012
+    speed = .002
     _hydra.synth.time = 5.34 * (1+(N*2)) - (rrand(0,0.1))}

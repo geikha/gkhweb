@@ -23,6 +23,8 @@ await loadScript(hyper+"hydra-wrap.js")
 await loadScript(hyper+"hydra-convolutions.js")
 await loadScript(extrash+"lib-noise.js")
 
+_hydra.precision = "mediump";
+
 setFunction({
     name: "rotate3D",
       type: "coord",
