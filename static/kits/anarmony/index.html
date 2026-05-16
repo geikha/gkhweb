@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ANARMONY — Hydra + p5</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Hydra core -->
+    <script src="https://unpkg.com/hydra-synth"></script>
+
+    <!-- local keyboard extension (loaded from repo) -->
+    <script src="./public/keryboard-202605.js"></script>
+
+    <!-- framework and p5 helpers (local) -->
+    <script src="hydra-framework.js"></script>
+    <script src="https://unpkg.com/p5/lib/p5.min.js"></script>
+    <script src="p5-instance.js"></script>
+    <script src="script.js"></script>
+    <script src="subway.js"></script>
+    <script src="andenesFractal.js"></script>
+    <script src="anarmonyTag.js"></script>
+    <script src="trains.js"></script>
+    <script src="anarmonyBgTag.js"></script>
+    <script src="andenesGrit.js"></script>
+
+  </head>
+  <body>
+    <canvas id="hydra-bg"></canvas>
+    <script>
+      (async function(){
+        try{
+          // hydra must be initialized first — extensions need its globals (setFunction, sandbox, etc.)
+          HydraFramework.initHydra({ canvasId: 'hydra-bg' });
+          await HydraFramework.loadExtensions();
+          HydraFramework.setupKeyboard();
+          if(typeof HydraFramework.addRotate3DCoord === 'function'){
+            HydraFramework.addRotate3DCoord();
+          }
+          createHiddenP5Instance();
+          console.log('Hydra + p5 framework initialized');
+          if (typeof startDemo === 'function') startDemo();
+        }catch(e){ console.error(e); }
+      })();
+    </script>
+  </body>
+</html>
